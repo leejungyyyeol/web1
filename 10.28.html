@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>10.28</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        
+        <style>
+
+            .two {
+                border-style: solid;
+                border-width: 15px;
+                border-color: burlywood;
+            }
+
+            .three {
+                border-style: dashed dotted double solid;
+            }
+
+            .four {
+                border-left-style: solid;
+                border-bottom-style: dotted;
+                border-color: red;
+                border-width: 12px;
+            }
+            
+            .five {
+                border-style: solid;
+                border-radius: 10px;
+            }
+        </style>
+
+
+
+    </head>
+    <body>
+        <h1>CSS Border</h1>
+        <hr>
+        <h2>Border 테두리</h2>
+        <p>
+            The CSS border properties allow you to specify the style, width, and color of an element's border.<br>
+            테두리 속성은 요소의 테두리의 색상, 넓이 등 스타일을 구체적으로 설정할 수 있게 해줍니다.<br>
+            allow - ~할수 있게 해주다, Specify - 구체적으로<br>
+        </p>
+        <ul>
+            <li>dotted - 점선 테두리</li>
+            <li>dashed - 대시선 테두리</li>
+            <li>solid - 실선 테두리</li>
+            <li>double - 이중선 테두리</li>
+            <li>groove - 3D 홈 테두리</li>
+            <li>ridge - 3D 돌출된 테두리</li>
+            <li>inset - 3D 들어간 테두리</li>
+            <li>outset - 3D 돌출된 테두리</li>
+            <li>none - 테두리가 없음</li>
+            <li>hidden - 숨겨진 테두리</li>
+        </ul>
+
+        <p class="two"> 
+            적용방법<br>
+            선택자 {border-style: dotted;}
+        </p>
+
+        <p class="three">
+            테두리는 4면의 스타일을 다르게 적용할 수 있다.<br>
+            위 오른쪽 아래 왼쪽의 시계방향 순으로 순차적으로 적용된다.<br>
+            ex. border-style = "dashed dotted double solid"<br>
+        </p>
+
+        <p class="four">
+            한 면만 적용하는 방식도 가능하다.
+        </p>
+
+        <p class="five">
+            굴곡지게 할 수도 있다. 
+        </p>
+            
+    </body>
+</html>
