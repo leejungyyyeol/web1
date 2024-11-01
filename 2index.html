@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./mystyle.css" rel="stylesheet">
+    <title>메인</title>
+    <link rel="icon" type="image" href="/images/favicon.ico">
+  </head>
+  <body>
+
+    <h1>기록</h1>
+    <p id="record">2024년</p>
+    
+    <a href="./study.html" rel="study">html 정리노트</a>
+
+    
+<!--제목과 내용-->
+    
+    
+    <hr> <!--수평선을 그리자!-->
+<div id="모든 태그에 지정 가능한 속성을 전역속성이라 합니다. id, class, style, title 등이 있습니다.">
+    <P>우리 <span>화길이 너무 이쁘죠?</span class="스판은 인라인요소를 구분해주는것"></P>
+    <p>요소에는 블록레벨 요소와 인라인 요소로 구분할 수 있습니다
+        <br> 문서상에서 블럭으로 좌우 모든 공간을 차지하는 것이 <strong>블록레벨이구요</strong>
+        <br> 자기가 쓴 공간만을 차지하는 것이 <mark>인라인 요소입니다.</mark>
+    </p>
+</div> <!--컨테이너 입니다. div는 블록영역 span은 인라인 영역으로 묶어줍니다.-->
+<div id="id는 태그명이 같은 속성을 식별하기 위해 사용합니다 id는 태그당 하나씩 중복불가지만 class는 다중지정 및 중복이 가능합니다,">
+    <p><em>저는 이정열이구요 화길이의 남자친구입니다. 이번분기 애니 신작 많이들 봐주세요 ㅎㅎ</em></p>
+    <p>html 문서 상에는 띄어쓰기 엔터를 여러번 하더라도 전부 띄어쓰기 한칸으로 인식합니다. 
+        <br>로 강제 개행하거나!!!!!!!
+        <br>이렇게&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 띄어쓰기 해야합니다,
+    </p>
+</div>
+    <!--여기는 사진-->
+<img
+  class="fit-picture"
+  src="images/화기리.jpeg"
+  alt="이쁜화기리" width="300"/>
+    <div class="card" style="width: 18rem;">
+        <img src="images/화기리.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">화기리</h5>
+          <p class="card-text">화길이랑 나랑은 사랑하는 사이에요 너무 이쁘죠 알아요 ㅎ</p>
+          <a href="#" class="btn btn-primary">너무 이쁜 모습 더보기</a>
+        </div>
+      </div>
+
+
+<a href="https://www.naver.com" target="_self">이곳을 누르면 네이버로 이동합니다.</a>
+<br>
+<a href="tel:010-4550-5585" target="_self">전화를 연결합니다</a>
+<br> 
+<a href="mailto:monopa39@gmail.com" target="_self">메일을 보냅니다</a>
+<!--내용에는 텍스트 뿐 아니라 다른 컨텐츠도 넣을 수 있습니다. 이를테면 이미지도.!-->
+<br>
+<a href="https:www.google.co.kr" target="_blank"><img src="images/화기리.jpeg" width="50"></a>
+
+
+<h1>목록을 표시해 봅시다!!!</h1>
+<p>목록은 크게 두가지로 나뉩니다 ul(unorder list), ol(order list)</p>
+
+<h1>순서없는 목록</h1>
+<ul>내가 좋아하는 동물
+    <li><mark>강아지</mark></li>
+    <li>망아지</li>
+    <li>송아지</li>
+    <li>병아리</li>
+    <li>농아리</li>
+    <li>숭아리</li>
+    <li>공아리</li>
+</ul>
+<h1>내가 공부해야하는 순서</h1>
+<ol>공부 목록
+    <li>HTML</li>
+    <li>css</li>
+    <li>js</li>
+    <li>node.js</li>
+</ol>
+<p>ol, ul, li, 모두 블록레벨 요소이다!!!!!!
+    <br> 목록 옆에 여백은 목록임을 표시해주는 기본적으로 제공해주는 스타일이다
+</p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   
+  </body>
+</html>

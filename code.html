@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>코드기어스</title>
+        <style>
+            #lang-nav {
+                background-color: #f8f8fb;
+                }
+            #lang-nav .l-cluster > * {
+                justify-content: flex-end;
+                margin: 0 -0.625rem;
+                }
+            #lang-nav .l-cluster.l-cluster > * > * {
+                margin: 0 0.625rem;
+                }
+            #lang-nav a, #lang-nav .heading-anchor {
+                font-size: 0.875rem;
+                line-height: 1.4285714286;
+                color: #111;
+                display: block;
+                padding-bottom: 0.75rem;
+                padding-top: 0.75rem;
+                }
+            .l-center {
+                                box-sizing: content-box;
+                                margin-left: auto;
+                                margin-right: auto;
+                                max-width: 70rem;
+                                
+                                padding-left: 5vw;
+                                padding-right: 5vw;
+                                
+                                }
+            
+            .l-cluster {
+                        overflow: hidden;
+                        }
+            
+            .l-cluster > * {
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                margin: -0.625rem;
+                                }
+
+            .l-cluster--vertical-align > * {
+                                align-items: center;
+                                }
+
+                                /**
+                                We apply an even, symmetrical margin to the elements that we wish to space
+                                out, but halve it to to account for 'doubling up' at the edges.
+                                */
+            .l-cluster.l-cluster > * > * {
+                                display: inline-block;
+                                margin: 0.625rem;
+                                }
+        
+            .crosslink {
+                background-color: #005a9c;
+                color: #fff;
+                padding-top: 3.125rem;
+                padding-bottom: 3.125rem;
+             }
+             
+            .card {
+                    background-color: #fff;
+                    border-radius: 0.25rem;
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    overflow: hidden;
+                    }
+
+            .card__text {
+                    flex-grow: 1;
+                    order: 1;
+                    padding-top: 1rem;
+                    }
+
+            .card--group .card__text {
+                    max-width: 41.25rem;
+                    }
+
+            .card__text > a:not([class]), .card__text > .heading-anchor {
+                                align-self: flex-start;
+                                margin-top: 0.375rem;
+                                padding-bottom: 0.625rem;
+                                padding-top: 0.625rem;
+                                }
+        </style>
+    </head>
+    <body>
+        <nav id="lang-nav" aria-label="Language options">
+            <div class="l-center">
+                <div class="l-cluster">
+                    <ul class="clean-list" role="list">
+                        <li>
+                            <a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%BC%E3%83%89%E3%82%AE%E3%82%A2%E3%82%B9" hreflang="ja" lang="ja">
+                                "日本語版"
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://zh.wikipedia.org/wiki/Code_Geass" hreflang="zh-hans" lang="zh-hans"></a>
+                                "중국어판"
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+        </nav>
+
+
+        <aside class="crosslink">
+            <div class="l-center">
+                <div class="component component--colums component--columns--images">
+                    <div class="component--columna__intro">
+                        <h2>Latest news</h2>
+                        <p>
+                            가장 최근의 뉴스, 기사, 그리고 블로그
+                        </p>
+                    
+
+
+                    </div>
+                <ul class="clean-list">
+                   <li>
+                    <div class="card" data-component="card">
+                        <div class="card_text">
+                            <h3 class="card heading">
+                                이곳에 제목을 입력하세요
+
+                            </h3>
+                            <p>
+                                이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요
+                            </p>
+
+                        </div>
+                    </div>
+                   </li>
+                   <li>
+                    <div class="card" data-component="card">
+                        <div class="card_text">
+                            <h3 class="card heading">
+                                이곳에 제목을 입력하세요
+
+                            </h3>
+                            <p>
+                                이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요
+                            </p>
+
+                        </div>
+                    </div>
+                   </li>
+                   <li>
+                    <div class="card" data-component="card">
+                        <div class="card_text">
+                            <h3 class="card heading">
+                                이곳에 제목을 입력하세요
+
+                            </h3>
+                            <p>
+                                이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요이곳에는 내용을 입력하세요
+                            </p>
+
+                        </div>
+                    </div>
+                   </li>
+                </ul>
+                
+            
+                </div>
+
+
+            </div>
+
+        </aside>
+
+    </body>
+</html>
